@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import pana from './assets/pana.svg'
-import logo from './assets/logo.svg'
+import logo from './assets/logo.png'
 import {useNavigate} from "react-router-dom";
 import axios from "axios";
 
