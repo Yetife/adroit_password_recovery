@@ -65,7 +65,7 @@ const EmailAddressPage = () => {
             </div>
             <div className="w-full md:w-1/2 bg-white flex flex-col items-center p-8">
                 <div>
-                    <img src={logo} alt={"logo"}/>
+                    <img src={logo} alt={"logo"} className="text-center"/>
                     <h2 className="text-[29px] text-[#00C795] font-bold mb-6">Password Recovery</h2>
                 </div>
                 <div className="mt-28">
@@ -100,8 +100,11 @@ const EmailAddressPage = () => {
                     </form>
                     <div className="mt-40">
                         <p className='text-[13px] text-[#135D54] font-[500] text-center'>
-                            &copy; {new Date().getFullYear()} CreditWave Finance Limited | All
-                            Rights Deserved
+                            &copy; {new Date().getFullYear()}{" "}
+                            <a href="https://sheizfinancials.com/" target="_blank" rel="noreferrer" className="underline hover:text-[#0b3f38]">
+                                SFTSL
+                            </a>{" "}
+                            | All Rights Reserved
                         </p>
                     </div>
                 </div>
