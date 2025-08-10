@@ -1,5 +1,5 @@
-import React from 'react';
 
+// eslint-disable-next-line react/prop-types
 const SuccessModal = ({ onClose }) => {
     const handleRoute = () => {
         onClose
@@ -13,7 +13,7 @@ const SuccessModal = ({ onClose }) => {
                     <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center">
                         <svg width="121" height="120" viewBox="0 0 121 120" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
+                            <path fillRule="evenodd" clipRule="evenodd"
                                   d="M60.5 120C76.413 120 91.6742 113.679 102.926 102.426C114.179 91.1742 120.5 75.913 120.5 60C120.5 44.087 114.179 28.8258 102.926 17.5736C91.6742 6.32141 76.413 0 60.5 0C44.587 0 29.3258 6.32141 18.0736 17.5736C6.82141 28.8258 0.5 44.087 0.5 60C0.5 75.913 6.82141 91.1742 18.0736 102.426C29.3258 113.679 44.587 120 60.5 120ZM51.7571 84.6H45.6714L26.2143 65.1429L32.3 59.0571L48.7571 75.5143L84.7571 39.4286L90.8429 45.5143L51.7571 84.6Z"
                                   fill="#00C796"/>
                         </svg>

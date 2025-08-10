@@ -53,7 +53,7 @@ const EmailAddressPage = () => {
         <div className="flex min-h-screen">
             <div className="w-1/2 bg-[#00C795] text-white hidden md:block">
                 <div className="flex flex-col px-32">
-                    <p className="text-[52px] font-bold mb-4">CreditWave</p>
+                    <p className="text-[52px] font-bold mb-4">SFTSL</p>
                     <p className="text-[17px] mb-8 font-medium ">
                         Monitoring of Non-performing loan accounts <br/> with acceptable standard to maximize recovery<br/> at a
                         reduced Cost
@@ -64,7 +64,7 @@ const EmailAddressPage = () => {
                 </div>
             </div>
             <div className="w-full md:w-1/2 bg-white flex flex-col items-center p-8">
-                <div>
+                <div className="flex flex-col justify-center items-center">
                     <img src={logo} alt={"logo"} className="text-center"/>
                     <h2 className="text-[29px] text-[#00C795] font-bold mb-6">Password Recovery</h2>
                 </div>
