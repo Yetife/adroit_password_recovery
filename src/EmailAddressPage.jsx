@@ -82,7 +82,7 @@ const EmailAddressPage = () => {
                                 value={email}
                                 onChange={handleEmailChange}
                                 className="shadow appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                placeholder="adekunle.adebona@creditwaveng.com"
+                                placeholder="adekunle.adebona@gmail.com"
                             />
                             {error && <p className="text-red-500 text-xs italic mt-2">{error}</p>}
                         </div>
